@@ -100,7 +100,7 @@ button {
 .banner_rhombus2_img {
   z-index: 8;
   position: absolute;
-  top: 120px;
+  top: 50px;
   left: 128px;
 }
 .banner_button {
@@ -121,9 +121,7 @@ button {
 }
 .banner_process1_img {
   z-index: 6;
-  position: absolute;
-  top: 780px;
-  left: 900px;
+  margin: 150px 0 0 700px;
 }
 .rates {
   display: flex;
