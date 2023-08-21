@@ -175,3 +175,33 @@ button {
   justify-items: stretch;
   gap: 20px;
 }
+.button7_collection {
+  margin-top: 60px;
+  margin: 60px auto;
+  display: block;
+}
+.trend {
+  position: relative;
+}
+.trend_title {
+  margin: 60px auto;
+  display: block;
+}
+.trend_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.trend_process2_img {
+  margin: 60px auto;
+  display: block;
+}
+.trend_card8_img {
+  z-index: 6;
+}
+.trend_img_ellipse3 {
+  z-index: 4;
+  position: absolute;
+  top: -450px;
+  right: -600px;
+}
