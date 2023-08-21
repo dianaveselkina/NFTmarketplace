@@ -13,7 +13,7 @@ body {
 }
 main {
   background-color: #04011c;
-  padding: 0 140px 0 140px;
+  padding: 0 140px 100px 140px;
 }
 button {
   padding: 0;
@@ -92,16 +92,16 @@ button {
   left: 580px;
 }
 .banner_rhombus1_img {
-  z-index: 6;
+  z-index: 8;
   position: absolute;
   top: 540px;
   left: 380px;
 }
 .banner_rhombus2_img {
-  z-index: 6;
+  z-index: 8;
   position: absolute;
-  top: 540px;
-  left: 380px;
+  top: 120px;
+  left: 128px;
 }
 .banner_button {
   display: flex;
@@ -271,4 +271,79 @@ button {
   font-style: 18px;
   font-weight: 300;
   color: white;
+}
+.clients_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.footer_block_information {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.footer_listing {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer_text {
+  font-style: 24px;
+  font-weight: 500;
+  color: white;
+}
+.footer_information {
+  font-style: 18px;
+  font-weight: 400;
+  color: white;
+}
+.marketplace_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.footer_text1 {
+  font-style: 16px;
+  font-weight: 400;
+  color: white;
+}
+.footer_ellipse {
+  z-index: 4;
+  position: absolute;
+  top: -200px;
+  left: 1100px;
+}
+.marketplace_button_img {
+  z-index: 6;
+}
+.privacy {
+  z-index: 6;
+  padding: 0 140px 0 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #1e1b33;
+}
+.privacy_block {
+  z-index: 6;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.privacy_text {
+  font-style: 20px;
+  font-weight: 400;
+  color: white;
+}
+.privacy_block_img {
+  z-index: 6;
+}
+.privacy_img {
+  z-index: 6;
 }
