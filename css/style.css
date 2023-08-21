@@ -248,3 +248,27 @@ button {
   flex-direction: row;
   justify-content: space-between;
 }
+.connection {
+  margin: 132px 0 132px 0;
+}
+.connection_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.connection_block_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.connection_title {
+  font-size: 44px;
+  font-weight: 500;
+  color: white;
+}
+.connection_text {
+  font-style: 18px;
+  font-weight: 300;
+  color: white;
+}
