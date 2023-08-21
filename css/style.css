@@ -225,3 +225,26 @@ button {
   top: 300px;
   left: 30px;
 }
+.popular {
+  margin-top: 132px;
+}
+.popular_title_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.popular_button_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+.popular_block_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
