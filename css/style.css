@@ -137,6 +137,7 @@ button {
   color: white;
 }
 .favorites {
+  z-index: 10;
   position: relative;
   height: 579px;
   margin: 132px 0 132px 0;
@@ -146,13 +147,31 @@ button {
   margin-bottom: 60px;
 }
 .favorites_block_items {
+  z-index: 10;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .banner_ellipse1_img {
-  z-index: 6;
+  z-index: 4;
   position: absolute;
-  top: 780px;
-  left: 900px;
+  top: -400px;
+  left: 1100px;
+}
+.favorites_items_card4 {
+  z-index: 6;
+}
+.collection_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.collection_block_items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: stretch;
+  gap: 20px;
 }
