@@ -1,5 +1,7 @@
 # лендинг для NFT маркетплейса
 
+[Посмотреть можно здесь](https://dianaveselkina.github.io/NFTmarketplace/)
+
 Стек технологий:
 * HTML
 * CSS
@@ -17,4 +19,4 @@
 
 ![start](https://github.com/dianaveselkina/NFTmarketplace/assets/120037350/28529710-9d92-4093-a7e5-2670680d042d)
 
-[Посмотреть можно здесь](https://dianaveselkina.github.io/NFTmarketplace/)
+
